@@ -1,4 +1,4 @@
-pom.xml :
+nano pom.xml 
 
 <dependency>
             <groupId>org.apache.hadoop</groupId>
@@ -87,15 +87,15 @@ nano $HADOOP_HOME/etc/hadoop/mapred-site.xml
     </property>
     <property>
         <name>yarn.app.mapreduce.am.env</name>
-        <value>HADOOP_MAPRED_HOME=/home/abi/hadoop</value>
+        <value>HADOOP_MAPRED_HOME=/usr/vbox/hadoop</value>
     </property>
     <property>
         <name>mapreduce.map.env</name>
-        <value>HADOOP_MAPRED_HOME=/home/abi/hadoop</value>
+        <value>HADOOP_MAPRED_HOME=/usr/vbox/hadoop</value>
     </property>
     <property>
         <name>mapreduce.reduce.env</name>
-        <value>HADOOP_MAPRED_HOME=/home/abi/hadoop</value>
+        <value>HADOOP_MAPRED_HOME=/usr/vbox/hadoop</value>
     </property>
 </configuration>
 
