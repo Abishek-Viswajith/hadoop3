@@ -78,7 +78,7 @@ public class WordCount {
     }
 }
 
-mapred-site.xml :
+nano $HADOOP_HOME/etc/hadoop/mapred-site.xml
 
 <configuration>
     <property>
